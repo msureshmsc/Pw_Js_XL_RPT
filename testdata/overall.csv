@@ -1,0 +1,8 @@
+testcasename,ToExecute,Component,Sequence,URL,fullname,email,currentAddress,permanentAddress
+TC001,YES,NAVIGATETO,NA,https://demoqa.com/text-box,,,,
+TC001,YES,textbox,1,,namethree,namethree@gmail.com,namethreeChennai,SaudiArabia
+TC001,YES,textbox,1,,namefour,namefour@gmail.com,namefourChennai,Dubai
+TC001,YES,textbox,1,,namefive,namefive@gmail.com,namefiveChennai,Hongkong
+TC002,YES,textbox,1,,namesix,namefive@gmail.com,namefiveChennai,Thailand
+TC002,YES,textbox,1,,nameseven,namefive@gmail.com,namefiveChennai,Malaysia
+TC002,YES,textbox,1,,nameeight,nameeight@gmail.com,nameeightChennai,Singapore

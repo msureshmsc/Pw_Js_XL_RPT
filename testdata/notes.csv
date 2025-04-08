@@ -1,0 +1,7 @@
+FileName	Purpose
+A1recordPlayBack.spec	Normal record and playback script
+A2datafromCSV.spec	Read data from CSV file.
+A3POMCSV.spec	Page Object Model Implementation. Data from CSV file
+A4driverGuru99.spec	Driver file demo for DemoQA website
+A5driverHeroku.spec	Framework Driver - Heroku app / Visual testing
+D1httpsCredentials.spec	httpCredentials for windows authentication
