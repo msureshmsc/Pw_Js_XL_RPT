@@ -1,0 +1,18 @@
+screenshotDir = C:\Automation\Playwright\Demo\screenshots
+✅ Visual comparison passed. No pixel mismatch.
+screenshotDir = C:\Automation\Playwright\Demo\screenshotsField
+ForgotPassword_RetrievePasswordBtn is Visible.
+locator('//button[@id=\'form_submit\' and @type=\'submit\']')
+✅ Visual comparison passed. No pixel mismatch.
+screenshotDir = C:\Automation\Playwright\Demo\screenshotsField
+ForgotPassword_PoweredBy is Visible.
+locator('//div[text()=\'Powered by \']')
+✅ Visual comparison passed. No pixel mismatch.
+screenshotDir = C:\Automation\Playwright\Demo\screenshotsField
+ForgotPassword_ForgotPasswordHeading is Visible.
+getByRole('heading', { name: 'Forgot Password' })
+✅ Visual comparison passed. No pixel mismatch.
+screenshotDir = C:\Automation\Playwright\Demo\screenshotsField
+ForgotPassword_EmailLabel is Visible.
+getByText('E-mail')
+✅ Visual comparison passed. No pixel mismatch.

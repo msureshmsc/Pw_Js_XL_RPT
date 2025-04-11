@@ -37,7 +37,6 @@ test.describe('Heroku Validations', () => {
     const excelPath = path.join(runDir, 'TestExecutionReport.xlsx');
 
     test.beforeAll(async () => {
-        console.log("<<<<<<<<<<<<<<<<<<<Creating the Excel workbook and worksheet>>>>>>>>>>>>>>>>>>>>>>>>")
         await initializeExcel(excelPath);
     });
 
@@ -49,8 +48,8 @@ test.describe('Heroku Validations', () => {
 
             for (const step of testSteps) {
                 const component = step.Component?.trim().toUpperCase() || 'UNKNOWN';
-                const methodName = component;
-                const screenshotName = getScreenshotName(testCaseName, component, methodName);
+                // const methodName = component;
+                const screenshotName = getScreenshotName(testCaseName, component);
                 const screenshotPath = path.join(runDir, screenshotName);
 
                 let status = 'PASS';
@@ -99,11 +98,12 @@ test.describe('Heroku Validations', () => {
 
                 // Always write to Excel if it's a known component
                 if (component !== 'UNKNOWN') {
+                    console.log(`component name = ${component}. Writing to excel`)
                     await appendToExcel(excelPath, {
                         sno: sno++,
                         testcasename: testCaseName,
                         component,
-                        methodname: methodName,
+                        // methodname: methodName,
                         expected: expectedResult,
                         actual: actualResult,
                         status,

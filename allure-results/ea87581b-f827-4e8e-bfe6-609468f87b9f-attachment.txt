@@ -1,0 +1,2 @@
+Model: sdk_gphone64_x86_64
+Serial: emulator-5554

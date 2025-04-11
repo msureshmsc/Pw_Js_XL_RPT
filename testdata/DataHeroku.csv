@@ -1,14 +1,14 @@
-testcasename,ToExecute,Component,Sequence,URL,ExpectedPageScreenshot,ActualPageScreenshot,FieldName,ExpectedFieldSS,ActualFieldSS
-TC008,YES,NAVIGATETO,NA,https://the-internet.herokuapp.com/forgot_password,,,,,
-TC008,YES,COMPAREPAGE,,,ExpectedForgotPassword.png,ActualForgotPassword.png,,,
-TC008,YES,COMPAREFIELD,,,,,ForgotPassword_RetrievePasswordBtn,ExpectedRetrievePasswordButton.png,ActualRetrievePasswordButton.png
-TC008,YES,COMPAREFIELD,,,,,ForgotPassword_PoweredBy,ExpectedPoweredByElementalSeleniumLabel.png,ActualPoweredByElementalSeleniumLabel.png
-TC008,YES,COMPAREFIELD,,,,,ForgotPassword_ForgotPasswordHeading,ExpectedForgotPasswordLabel.png,ActualForgotPasswordLabel.png
-TC008,YES,COMPAREFIELD,,,,,ForgotPassword_EmailLabel,ExpectedE-mailLabel.png,ActualE-mailLabel.png
-TC001,YES,NAVIGATETO,NA,https://the-internet.herokuapp.com/,ExpectedMainPage.png,ActualMainPage.png,,,
-TC002,YES,NAVIGATETO,NA,https://the-internet.herokuapp.com/checkboxes,Expectedcheckboxes.png,Actualcheckboxes.png,,,
-TC003,YES,NAVIGATETO,NA,https://the-internet.herokuapp.com/abtest,Expectedabtest.png,Actualabtest.png,,,
-TC004,YES,NAVIGATETO,NA,https://the-internet.herokuapp.com/add_remove_elements/,ExpectedAddRemoveElements.png,ActualAddRemoveElements.png,,,
-TC005,YES,NAVIGATETO,NA,https://the-internet.herokuapp.com/broken_images,ExpectedBrokenImages.png,ActualBrokenImages.png,,,
-TC006,YES,NAVIGATETO,NA,https://the-internet.herokuapp.com/drag_and_drop,ExpectedDragAndDrop.png,ActualDragAndDrop.png,,,
-TC007,YES,NAVIGATETO,NA,https://the-internet.herokuapp.com/dropdown,ExpectedDropdown.png,ActualDropdown.png,,,
+testcasename,ToExecute,Component,Sequence,ExpectedResult,URL,ExpectedPageScreenshot,ActualPageScreenshot,FieldName,ExpectedFieldSS,ActualFieldSS
+TC008,YES,NAVIGATETO,NA,Navigate to given URL,https://the-internet.herokuapp.com/forgot_password,,,,,
+TC008,YES,COMPAREPAGE,,Compare Expected page with the actual page,,ExpectedForgotPassword.png,ActualForgotPassword.png,,,
+TC008,YES,COMPAREFIELD,,Compare Expected page with the actual page,,,,ForgotPassword_RetrievePasswordBtn,ExpectedRetrievePasswordButton.png,ActualRetrievePasswordButton.png
+TC008,YES,COMPAREFIELD,,Compare Expected page with the actual page,,,,ForgotPassword_PoweredBy,ExpectedPoweredByElementalSeleniumLabel.png,ActualPoweredByElementalSeleniumLabel.png
+TC008,YES,COMPAREFIELD,,Compare Expected page with the actual page,,,,ForgotPassword_ForgotPasswordHeading,ExpectedForgotPasswordLabel.png,ActualForgotPasswordLabel.png
+TC008,YES,COMPAREFIELD,,Compare Expected page with the actual page,,,,ForgotPassword_EmailLabel,ExpectedE-mailLabel.png,ActualE-mailLabel.png
+TC001,NO,NAVIGATETO,NA,Navigate to given URL,https://the-internet.herokuapp.com/,ExpectedMainPage.png,ActualMainPage.png,,,
+TC002,NO,NAVIGATETO,NA,Navigate to given URL,https://the-internet.herokuapp.com/checkboxes,Expectedcheckboxes.png,Actualcheckboxes.png,,,
+TC003,NO,NAVIGATETO,NA,Navigate to given URL,https://the-internet.herokuapp.com/abtest,Expectedabtest.png,Actualabtest.png,,,
+TC004,NO,NAVIGATETO,NA,Navigate to given URL,https://the-internet.herokuapp.com/add_remove_elements/,ExpectedAddRemoveElements.png,ActualAddRemoveElements.png,,,
+TC005,NO,NAVIGATETO,NA,Navigate to given URL,https://the-internet.herokuapp.com/broken_images,ExpectedBrokenImages.png,ActualBrokenImages.png,,,
+TC006,NO,NAVIGATETO,NA,Navigate to given URL,https://the-internet.herokuapp.com/drag_and_drop,ExpectedDragAndDrop.png,ActualDragAndDrop.png,,,
+TC007,NO,NAVIGATETO,NA,Navigate to given URL,https://the-internet.herokuapp.com/dropdown,ExpectedDropdown.png,ActualDropdown.png,,,

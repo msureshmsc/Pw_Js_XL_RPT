@@ -10,9 +10,11 @@
   "type": "module",
   "devDependencies": {
     "@playwright/test": "^1.51.1",
-    "@types/node": "^22.13.10"
+    "@types/node": "^22.13.10",
+    "allure-playwright": "^3.2.1"
   },
   "dependencies": {
+    "axios": "^1.8.4",
     "csv-parse": "^5.6.0",
     "csv-parser": "^3.2.0",
     "exceljs": "^4.4.0",
